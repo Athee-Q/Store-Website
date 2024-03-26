@@ -62,7 +62,7 @@ const {id} = useParams();
                 <div className="bg-gray-100 p-4 rounded-lg">
                     <AddressInputs 
                     disabled={true} 
-                    addressProps ={{...order}}/>
+                    addressProps ={order}/>
                 </div>
             </div>
         </div>
